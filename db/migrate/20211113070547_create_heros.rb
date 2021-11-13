@@ -6,7 +6,7 @@ class CreateHeros < ActiveRecord::Migration[6.1]
       t.text :rarity
       t.text :alignment
       t.text :gender
-      t.text :type
+      t.text :combat_range
 
       t.timestamps
     end

@@ -5,8 +5,10 @@ ruby '3.1.0'
 
 gem 'rails', github: 'rails/rails', branch: '6-1-stable'
 
+gem 'httparty'
 gem 'jbuilder'
 gem 'pg'
+gem 'pry', require: false
 gem 'puma'
 gem 'sass-rails'
 gem 'turbolinks'
@@ -15,7 +17,6 @@ gem 'webpacker'
 gem 'bootsnap', require: false
 
 group :development, :test do
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails'
   gem 'rubocop'
   gem 'rubocop-performance'

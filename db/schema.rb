@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 2021_11_13_070547) do
     t.text "rarity"
     t.text "alignment"
     t.text "gender"
-    t.text "type"
+    t.text "combat_range"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
