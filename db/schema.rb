@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 2021_11_13_070547) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "heros", force: :cascade do |t|
+  create_table "heroes", force: :cascade do |t|
     t.bigint "mighty_party_id"
     t.text "name"
     t.text "rarity"
